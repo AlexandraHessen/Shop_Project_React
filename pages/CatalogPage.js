@@ -20,7 +20,7 @@ class CatalogPage extends React.PureComponent {
     if (!localStorage.plants){
       let sp1 = new URLSearchParams();
       sp1.append('f', 'READ');
-      sp1.append('n', 'YAKOVLEVA_PLANTS_CATALOG');
+      sp1.append('n', 'YAKOVLEVA_PLANTS_CATALOG3');
       isoFetch("http://fe.it-academy.by/AjaxStringStorage2.php", {
           method: 'POST',
           headers: {
