@@ -49,6 +49,7 @@ class Order extends React.PureComponent{
 
     validate = (EO) =>{
         // ----------------------- ВАЛИДАЦИЯ ВСЕХ ПОЛЕЙ ПРИ УХОДЕ С 1 ПОЛЯ-----------------------//
+        // ЛУЧШЕ БЫЛО ДЕЛАТЬ ФУНКЦИИ ВАЛИДАЦИИ  ОТДЕЛЬНЫМИ  ФАЙЛАМИ И С RETURN ЧТОБЫ МОЖНО БЫЛО ЛЕГКО ПРОТЕСТИРОВАТЬ
         if (this.state.name === ""){
             this.setState({nameNotValid: true}, this.validAll)
         } else{
