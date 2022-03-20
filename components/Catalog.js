@@ -15,7 +15,7 @@ class Catalog extends React.PureComponent{
     }
 
     state ={
-        countOfPlantsOnOnePage: 60,
+        countOfPlantsOnOnePage: 24,
         filterPrice: "",
     }
 
